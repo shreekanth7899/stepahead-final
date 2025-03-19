@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.vision-mission {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.vision, .mission {
+  background-color: #d0e7f7; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px; /* Optional, for rounded corners */
+  flex: 1; /* Makes both boxes equal in width */
+}
+
+.vision p, .mission p {
+  text-align: justify; /* Align text in the paragraphs */
+  line-height: 1.6; /* Adds space between lines for readability */
+  font-size: 16px; /* Optional: Adjusts font size */
+}
+
+.whatsapp_float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  margin: 16px;
+  font-size: 3em;
+}
